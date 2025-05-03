@@ -296,24 +296,29 @@ banner {
     margin: 0px 125px 60px 125px;
 }
 
-.holiday-picture {
-    display: flex;
-    justify-content: space-between;
-    width: 1320px;
-    height: 662.07px;
+.holiday-picture{
+     margin: 0px auto;
+     display: flex;
+   justify-content: space-between;
+   width: 1320px;
+   height: 662.07px;
 }
 
+
 .holiday-picture1 {
+    margin: 0 auto;
     width: 674.82px;
     height: 577.96px;
     left: 200.83px;
-    right: 200.83px;
+    margin-right: 170.83px;
 }
 
 .holiday-picture2 {
+    margin: 0 auto;
     position: absolute;
     width: 305.69px;
     height: 305.69px;
+    margin-right: 180px;
 }
 
 /* awesome styles */
