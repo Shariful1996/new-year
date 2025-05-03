@@ -1,0 +1,492 @@
+/* merriweather font */
+.merriweather-font-merri {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* inter font style */
+.inter-interfont {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* banner style */
+banner {
+    margin: 50px 140px 120px;
+    border-radius: 10px;
+
+}
+
+.banner-wish {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin: 170px 530px 16px 530px;
+}
+
+.banner-celebrate {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px 340px 170px 340px;
+}
+
+.banner-img {
+    background-image: url(../images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px 120px 100px;
+    border-radius: 16px;
+    background-image: border-radius: 16px;
+    background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0)), url(../images/Banner\ Image.png);
+}
+
+/* Deal-column styles */
+.deal {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.deals-title {
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+    margin: 120px 460px 45px 460px;
+    margin-bottom: 45px
+}
+
+.deals-offer {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.deals-categories {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.deals-banner {
+    width: 802.9px;
+    height: 500px;
+    left: 399px;
+    right: -399px;
+    top: 165.28%;
+    bottom: -142.09%;
+}
+
+/* welcome page styles */
+
+.welcome-page {
+    margin: 0px;
+    display: block;
+
+}
+
+.welcome {
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    display: flex;
+    margin-left: 140px;
+    margin-bottom: 120px;
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0)), url(../images/Vectorrr.png);
+}
+
+.welcome-title,
+.merriweather-font-merri {
+    color: rgb(255, 255, 255);
+    margin: 125px 100px 20px 125px;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+    gap: 125px;
+}
+
+.welcome-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 40px 45px 125px;
+}
+
+.welcome-join {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 155px;
+}
+
+.welcome-year {
+    margin: 65px 100px;
+}
+
+/* Programe Date styles */
+
+.programe-bg {
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    /* width: 1320px; */
+    height: 482px;
+    max-width: 1320px;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+}
+
+.programe-titles {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    text-transform: capitalize;
+    left: 95.63%;
+    right: -95.63%;
+    top: 975%;
+    bottom: -886.76%;
+}
+
+.join-programe {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    gap: 10;
+    border: none;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    position: static;
+}
+
+.color-pdt {
+    color: red;
+}
+
+/* coming style */
+.coming-style {
+    margin: 0 auto;
+    width: 1520px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.coming-title {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    margin: 100px 250px 15px 100px;
+    /* text-align: center; */
+}
+
+.coming-sub-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 0px 130px 20px 100px;
+}
+
+.coming-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin: 0px 70px 100px 100px;
+}
+
+.coming-description2 {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0px 100px 40px 70px;
+}
+
+.coming-year {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    margin: 110px 145px 15px 70px;
+}
+
+.coming-icon {
+    text-align: left;
+    margin: 0px 135px 120px 70px;
+}
+
+.coming-img {
+    border: 15px solid rgb(255, 0, 0);
+    width: 364.84px;
+    height: 364.84px;
+    left: 652.08px;
+    right: -553.92px;
+    border-radius: 50%;
+    box-sizing: content-box;
+
+}
+
+
+/* holiday styles */
+
+.holiday {
+    margin: 0 auto;
+    width: 1068px;
+    height: 260px;
+    text-align: center;
+
+}
+
+.holiday-head {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.holiday-title {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.holiday-color {
+    color: red;
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 125px 60px 125px;
+}
+
+.holiday-picture {
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    height: 662.07px;
+}
+
+.holiday-picture1 {
+    width: 674.82px;
+    height: 577.96px;
+    left: 200.83px;
+    right: 200.83px;
+}
+
+.holiday-picture2 {
+    position: absolute;
+    width: 305.69px;
+    height: 305.69px;
+}
+
+/* awesome styles */
+
+.awesome-bg {
+    margin: 0 auto;
+    width: 1320px;
+    height: 1163px;
+    margin-bottom: 120px;
+}
+
+.awesome-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.awesome-sub-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.awesome-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 0px;
+    margin-right: 420px;
+}
+
+.awesome-gifts {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 16px;
+    background: url(1);
+    gap: 15px;
+    border: 5px dotted rgb(81, 79, 79);
+}
+
+/* subscribe style */
+.subscribe-bg {
+    margin: 0 auto;
+    width: 1320px;
+    height: 616px;
+    left: 140px;
+    right: -140px;
+    margin-bottom: 120px;
+}
+
+.subscribe-logo {
+    align-items: center;
+    margin: 100px 630px 35px 630px;
+
+}
+
+.subscribe-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 45px;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+
+.subscribe-search {
+    align-items: center;
+}
+
+.subs-search {
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 50px;
+    padding: 20px 250px 20px 25px;
+    background: rgb(255, 255, 255);
+    border: none;
+    margin-left: 330px;
+}
+
+.subs-form {
+    border: none;
+}
+
+.subs-button {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background: rgb(255, 0, 0);
+    padding: 20px 50px 20px 50px;
+}
+
+/* footer unsubcribe style */
+.uns-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.uns-bg {
+    margin: 0px auto;
+    background-color: black;
+    width: 1600px;
+    height: 609px;
+}
+
+.uns-head {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+.uns-right-title{
+    margin: 0px;
+    gap: 0px;
+
+}
+.uns-img {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.uns-last {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
